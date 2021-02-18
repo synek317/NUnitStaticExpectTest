@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- <UseAppConfigForCompiler>True</UseAppConfigForCompiler> -->
+    <!-- <ResolveNuGetPackages>True</ResolveNuGetPackages> -->
+    <TargetFramework>net461</TargetFramework>
+    <!-- <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects> -->
+    <!-- <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath> -->
+    <!-- <IncludeNuGetImports>true</IncludeNuGetImports> -->
+    <!-- <IncludeFrameworkReferencesFromNuGet>true</IncludeFrameworkReferencesFromNuGet> -->
+    <!-- <IncludeVersionInInteropName>false</IncludeVersionInInteropName> -->
+    <!-- <OutputType>Library</OutputType> -->
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <!-- <PlatformTarget>x64</PlatformTarget> -->
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0">
+      <!-- <HintPath>bin/Debug/nunit.framework.dll</HintPath> -->
+      <!-- <AllowExplicitVersion>False</AllowExplicitVersion> -->
+      <!-- <GeneratePathProperty>False</GeneratePathProperty> -->
+      <!-- <PrivateAssets>none</PrivateAssets> -->
+      <!-- <IsImplicitlyDefined>False</IsImplicitlyDefined> -->
+      <!-- <Publish>False</Publish> -->
+    </PackageReference>
+    <PackageReference Include="NUnit.StaticExpect" Version="1.0.7" />
+  </ItemGroup>
+</Project>
